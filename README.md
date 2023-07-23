@@ -17,8 +17,8 @@ Sairus, Spotify üzerinde hızlı işlemler yapmak için Burak tarafından geli�
 - `başlat`, `oynat`, `müziği başlat`, `müziği oynat`: Müziği başlatmak için bu komutları kullanabilirsiniz.
 - `müzik çalıyor mu`, `çalıyor mu`: Şu anda müziğin çalıp çalmadığını öğrenmek için bu komutları kullanabilirsiniz.
 - `hangi müzik çalıyor`, `ne çalıyor`: Şu anda çalınmakta olan şarkının adını ve sanatçısını öğrenmek için bu komutları kullanabilirsiniz.
-- `yardım`: Yardım menüsünü görüntülemek için bu komutu kullanabilirsiniz.
-- `kapat`, `programı kapat`: Sairus'u kapatmak için bu komutları kullanabilirsiniz.
+- `önceki şarkıyı çal`, `şarkıyı geri al`: Bir önceki şarkıya geçmek için bu komutları kullanabilirsiniz.
+- `sonraki şarkıyı çal`, `şarkıyı ileri al`: Bir sonraki şarkıya geçmek için bu komutları kullanabilirsiniz.
 
 ## Önemli Not
 
@@ -30,7 +30,7 @@ Sairus, Spotify üzerinde hızlı işlemler yapmak için Burak tarafından geli�
 
 ## Geliştirici
 
-- Burak (GitHub: Cyrussw)
+- Burak (GitHub: burak)
 
 ---
 *Oluşturma tarihi: 23.07.2023*
