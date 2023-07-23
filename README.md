@@ -30,7 +30,7 @@ Sairus, Spotify üzerinde hızlı işlemler yapmak için Burak tarafından geli�
 
 ## Geliştirici
 
-- Burak (GitHub: burak)
+- Burak (GitHub: Cyrussw)
 
 ---
 *Oluşturma tarihi: 23.07.2023*
