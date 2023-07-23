@@ -29,6 +29,8 @@ try:
             print("1. Müziği Başlat/Durdur")
             print("2. Hangi Müzik Çalıyor.")
             print("3. Müzik Çalıyormu?")
+            print("4. Bir sonraki müziği başlat.")
+            print("5. Bir önceki müziğe dön.")
             print("0. Kapat")
 
         # Müzik Başlat Durdur
@@ -114,9 +116,28 @@ try:
             else:
                 print("Sairus: Şuanda müzik çalmıyor.")
 
+        elif any(word in islem for word in nextTrackList):
+            current_playback = sp.current_playback()
+            if current_playback:
+                print("Sairus: Bir sonraki müziğe geçiliyor.")
+                sp.next_track()
+            else:
+                print("Sairus: Şuanda müzik çalmıyor.")
+        
+        elif any(word in islem for word in previousTrackList):
+            current_playback = sp.current_playback()
+            if current_playback:
+                print("Sairus: Bir önceki müziğe geçiliyor.")
+                sp.previous_track()
+            else:
+                print("Sairus: Şuanda müzik çalmıyor.")
+        
         # Programı Sonlandır.
         elif any(word in islem for word in closeProgramList):
-            print("Sairus: Program kapatılıyor görüşmek üzere!")
-            break
+            if islem.startswith("müzik") or islem.startswith("müziği"):
+                pass
+            else:
+                print("Sairus: Program kapatılıyor görüşmek üzere!")
+                break
 except Exception as e:
     print(f"Sairus: Bir Hata Meydana Geldi!\nHata: {e}")
